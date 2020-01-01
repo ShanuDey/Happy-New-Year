@@ -19,4 +19,5 @@ function copy() {
     var dummy = $('#name').val(wishUrl).select();
     document.execCommand('copy');
     $('#name').val(value);
+    window.open(wishUrl, '_blank');
 }
