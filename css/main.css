@@ -27,3 +27,9 @@
         transform: scale(1);
     }
 }
+
+#createNew {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+}
