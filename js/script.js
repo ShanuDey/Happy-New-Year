@@ -6,7 +6,7 @@ if (name != 'null' && name != '') {
     document.getElementById("wish").innerHTML = "From " + name;
 }
 
-const baseUrl = "file:///home/shanu/Documents/HappyNewYear/index.html?from=";
+const baseUrl = "https://shanudey.github.io/Happy-New-Year/?from=";
 
 function createWish() {
     var value = document.getElementById("name").value;
