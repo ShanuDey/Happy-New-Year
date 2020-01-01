@@ -12,3 +12,11 @@ function createWish() {
     var value = document.getElementById("name").value;
     document.getElementById("liveUrl").innerHTML = baseUrl + value;
 }
+
+function copy() {
+    var value = document.getElementById("name").value;
+    wishUrl = baseUrl + value;
+    var dummy = $('#name').val(wishUrl).select();
+    document.execCommand('copy');
+    $('#name').val(value);
+}
